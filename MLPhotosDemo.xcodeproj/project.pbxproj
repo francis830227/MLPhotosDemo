@@ -12,6 +12,10 @@
 		15A4CE861FD685FE000A2DEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15A4CE841FD685FE000A2DEC /* Main.storyboard */; };
 		15A4CE881FD685FE000A2DEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15A4CE871FD685FE000A2DEC /* Assets.xcassets */; };
 		15A4CE8B1FD685FE000A2DEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15A4CE891FD685FE000A2DEC /* LaunchScreen.storyboard */; };
+		15A4CE931FD6870C000A2DEC /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 15A4CE921FD6870C000A2DEC /* GoogLeNetPlaces.mlmodel */; };
+		15A4CE951FD690E1000A2DEC /* cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15A4CE941FD690E1000A2DEC /* cat.jpg */; };
+		15A4CE971FD69CBE000A2DEC /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 15A4CE961FD69CBE000A2DEC /* Resnet50.mlmodel */; };
+		15A4CE991FD69D29000A2DEC /* dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15A4CE981FD69D29000A2DEC /* dog.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		15A4CE871FD685FE000A2DEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15A4CE8A1FD685FE000A2DEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15A4CE8C1FD685FE000A2DEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15A4CE921FD6870C000A2DEC /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
+		15A4CE941FD690E1000A2DEC /* cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpg; sourceTree = "<group>"; };
+		15A4CE961FD69CBE000A2DEC /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
+		15A4CE981FD69D29000A2DEC /* dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 				15A4CE821FD685FE000A2DEC /* ViewController.swift */,
 				15A4CE841FD685FE000A2DEC /* Main.storyboard */,
 				15A4CE871FD685FE000A2DEC /* Assets.xcassets */,
+				15A4CE921FD6870C000A2DEC /* GoogLeNetPlaces.mlmodel */,
+				15A4CE961FD69CBE000A2DEC /* Resnet50.mlmodel */,
+				15A4CE941FD690E1000A2DEC /* cat.jpg */,
+				15A4CE981FD69D29000A2DEC /* dog.jpg */,
 				15A4CE891FD685FE000A2DEC /* LaunchScreen.storyboard */,
 				15A4CE8C1FD685FE000A2DEC /* Info.plist */,
 			);
@@ -124,7 +136,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				15A4CE8B1FD685FE000A2DEC /* LaunchScreen.storyboard in Resources */,
+				15A4CE991FD69D29000A2DEC /* dog.jpg in Resources */,
 				15A4CE881FD685FE000A2DEC /* Assets.xcassets in Resources */,
+				15A4CE951FD690E1000A2DEC /* cat.jpg in Resources */,
 				15A4CE861FD685FE000A2DEC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +152,8 @@
 			files = (
 				15A4CE831FD685FE000A2DEC /* ViewController.swift in Sources */,
 				15A4CE811FD685FE000A2DEC /* AppDelegate.swift in Sources */,
+				15A4CE971FD69CBE000A2DEC /* Resnet50.mlmodel in Sources */,
+				15A4CE931FD6870C000A2DEC /* GoogLeNetPlaces.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NNNK5GZ339;
 				INFOPLIST_FILE = MLPhotosDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FrancisT.MLPhotosDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NNNK5GZ339;
 				INFOPLIST_FILE = MLPhotosDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FrancisT.MLPhotosDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
