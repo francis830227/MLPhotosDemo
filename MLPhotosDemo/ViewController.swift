@@ -12,27 +12,42 @@ import Vision
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var previewImageView: UIImageView!
     @IBOutlet weak var resultLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        let model = Inceptionv3()
+        let image = UIImage(named: "cat.jpg")
+        
+        if let pixelBuffer = image?.pixelBuffer(width: 299, height: 299),
+            let prediction = try? model.prediction(image: pixelBuffer) {
+            print(prediction.classLabel)
+            print(prediction.classLabelProbs)
+            self.resultLabel.text = prediction.classLabel
+            previewImageView.image = image
+        }
+        
+//        predictUsingVision()
+    }
+
+    func predictUsingVision() {
         let path = Bundle.main.path(forResource: "dog", ofType: "jpg")
         guard let pathUnwrapped = path else { return }
-            
+        
         let imageURL = NSURL.fileURL(withPath: pathUnwrapped)
         
-//        let modelFile = GoogLeNetPlaces()
+        //        let modelFile = GoogLeNetPlaces()
         let modelFile = Resnet50()
-
+        
         let model = try! VNCoreMLModel(for: modelFile.model)
         let handler = VNImageRequestHandler(url: imageURL)
         let request = VNCoreMLRequest(model: model, completionHandler: resultsMethod)
         
         try! handler.perform([request])
-        
-    }
 
+    }
     
     func resultsMethod(request: VNRequest, error: Error?) {
         guard let results = request.results as? [VNClassificationObservation] else {
@@ -54,4 +69,3 @@ class ViewController: UIViewController {
         self.resultLabel.text = bestPrediction
     }
 }
-

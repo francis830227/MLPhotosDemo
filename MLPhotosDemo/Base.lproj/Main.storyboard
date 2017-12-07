@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -19,25 +18,34 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VX2-pl-R6Z">
-                                <rect key="frame" x="166" y="606" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="158.5" y="597" width="59.5" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jCj-n5-3fC">
+                                <rect key="frame" x="0.0" y="20" width="375" height="377"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="jCj-n5-3fC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="6Bp-N8-vxn"/>
+                            <constraint firstItem="jCj-n5-3fC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Eyn-wM-tIh"/>
+                            <constraint firstItem="VX2-pl-R6Z" firstAttribute="top" secondItem="jCj-n5-3fC" secondAttribute="bottom" constant="200" id="VJC-e0-s5R"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="VX2-pl-R6Z" secondAttribute="bottom" constant="40" id="goo-1Q-nH5"/>
+                            <constraint firstItem="jCj-n5-3fC" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="j7L-lC-lpL"/>
                             <constraint firstItem="VX2-pl-R6Z" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="seF-yG-c2q"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="previewImageView" destination="jCj-n5-3fC" id="CNg-qg-lxe"/>
                         <outlet property="resultLabel" destination="VX2-pl-R6Z" id="b6k-4o-fvL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
         </scene>
     </scenes>
 </document>

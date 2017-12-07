@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1551533A1FD9231B002B12AB /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 155153391FD9231B002B12AB /* Inceptionv3.mlmodel */; };
+		1551533C1FD9281B002B12AB /* CVPixelBufferExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1551533B1FD9281B002B12AB /* CVPixelBufferExtension.swift */; };
 		15A4CE811FD685FE000A2DEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A4CE801FD685FE000A2DEC /* AppDelegate.swift */; };
 		15A4CE831FD685FE000A2DEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A4CE821FD685FE000A2DEC /* ViewController.swift */; };
 		15A4CE861FD685FE000A2DEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15A4CE841FD685FE000A2DEC /* Main.storyboard */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		155153391FD9231B002B12AB /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		1551533B1FD9281B002B12AB /* CVPixelBufferExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVPixelBufferExtension.swift; sourceTree = "<group>"; };
 		15A4CE7D1FD685FE000A2DEC /* MLPhotosDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLPhotosDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15A4CE801FD685FE000A2DEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15A4CE821FD685FE000A2DEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,8 +68,10 @@
 			children = (
 				15A4CE801FD685FE000A2DEC /* AppDelegate.swift */,
 				15A4CE821FD685FE000A2DEC /* ViewController.swift */,
+				1551533B1FD9281B002B12AB /* CVPixelBufferExtension.swift */,
 				15A4CE841FD685FE000A2DEC /* Main.storyboard */,
 				15A4CE871FD685FE000A2DEC /* Assets.xcassets */,
+				155153391FD9231B002B12AB /* Inceptionv3.mlmodel */,
 				15A4CE921FD6870C000A2DEC /* GoogLeNetPlaces.mlmodel */,
 				15A4CE961FD69CBE000A2DEC /* Resnet50.mlmodel */,
 				15A4CE941FD690E1000A2DEC /* cat.jpg */,
@@ -150,10 +156,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1551533A1FD9231B002B12AB /* Inceptionv3.mlmodel in Sources */,
 				15A4CE831FD685FE000A2DEC /* ViewController.swift in Sources */,
 				15A4CE811FD685FE000A2DEC /* AppDelegate.swift in Sources */,
 				15A4CE971FD69CBE000A2DEC /* Resnet50.mlmodel in Sources */,
 				15A4CE931FD6870C000A2DEC /* GoogLeNetPlaces.mlmodel in Sources */,
+				1551533C1FD9281B002B12AB /* CVPixelBufferExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
