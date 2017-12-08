@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1551533C1FD9281B002B12AB /* CVPixelBufferExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1551533B1FD9281B002B12AB /* CVPixelBufferExtension.swift */; };
+		155D12C31FDA4E6300C93356 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 155D12C01FDA4E6300C93356 /* Resnet50.mlmodel */; };
+		155D12C41FDA4E6300C93356 /* VGG16.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 155D12C11FDA4E6300C93356 /* VGG16.mlmodel */; };
+		155D12C51FDA4E6300C93356 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 155D12C21FDA4E6300C93356 /* Inceptionv3.mlmodel */; };
 		15A4CE811FD685FE000A2DEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A4CE801FD685FE000A2DEC /* AppDelegate.swift */; };
 		15A4CE831FD685FE000A2DEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A4CE821FD685FE000A2DEC /* ViewController.swift */; };
 		15A4CE861FD685FE000A2DEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15A4CE841FD685FE000A2DEC /* Main.storyboard */; };
@@ -17,6 +20,9 @@
 
 /* Begin PBXFileReference section */
 		1551533B1FD9281B002B12AB /* CVPixelBufferExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVPixelBufferExtension.swift; sourceTree = "<group>"; };
+		155D12C01FDA4E6300C93356 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
+		155D12C11FDA4E6300C93356 /* VGG16.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = VGG16.mlmodel; sourceTree = "<group>"; };
+		155D12C21FDA4E6300C93356 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 		15A4CE7D1FD685FE000A2DEC /* MLPhotosDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLPhotosDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15A4CE801FD685FE000A2DEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15A4CE821FD685FE000A2DEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +67,9 @@
 				1551533B1FD9281B002B12AB /* CVPixelBufferExtension.swift */,
 				15A4CE841FD685FE000A2DEC /* Main.storyboard */,
 				15A4CE871FD685FE000A2DEC /* Assets.xcassets */,
+				155D12C21FDA4E6300C93356 /* Inceptionv3.mlmodel */,
+				155D12C01FDA4E6300C93356 /* Resnet50.mlmodel */,
+				155D12C11FDA4E6300C93356 /* VGG16.mlmodel */,
 				15A4CE891FD685FE000A2DEC /* LaunchScreen.storyboard */,
 				15A4CE8C1FD685FE000A2DEC /* Info.plist */,
 			);
@@ -140,8 +149,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				15A4CE831FD685FE000A2DEC /* ViewController.swift in Sources */,
+				155D12C51FDA4E6300C93356 /* Inceptionv3.mlmodel in Sources */,
 				15A4CE811FD685FE000A2DEC /* AppDelegate.swift in Sources */,
+				155D12C31FDA4E6300C93356 /* Resnet50.mlmodel in Sources */,
 				1551533C1FD9281B002B12AB /* CVPixelBufferExtension.swift in Sources */,
+				155D12C41FDA4E6300C93356 /* VGG16.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
