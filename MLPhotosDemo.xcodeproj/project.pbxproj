@@ -7,21 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1551533A1FD9231B002B12AB /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 155153391FD9231B002B12AB /* Inceptionv3.mlmodel */; };
 		1551533C1FD9281B002B12AB /* CVPixelBufferExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1551533B1FD9281B002B12AB /* CVPixelBufferExtension.swift */; };
 		15A4CE811FD685FE000A2DEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A4CE801FD685FE000A2DEC /* AppDelegate.swift */; };
 		15A4CE831FD685FE000A2DEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A4CE821FD685FE000A2DEC /* ViewController.swift */; };
 		15A4CE861FD685FE000A2DEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15A4CE841FD685FE000A2DEC /* Main.storyboard */; };
 		15A4CE881FD685FE000A2DEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15A4CE871FD685FE000A2DEC /* Assets.xcassets */; };
 		15A4CE8B1FD685FE000A2DEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15A4CE891FD685FE000A2DEC /* LaunchScreen.storyboard */; };
-		15A4CE931FD6870C000A2DEC /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 15A4CE921FD6870C000A2DEC /* GoogLeNetPlaces.mlmodel */; };
-		15A4CE951FD690E1000A2DEC /* cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15A4CE941FD690E1000A2DEC /* cat.jpg */; };
-		15A4CE971FD69CBE000A2DEC /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 15A4CE961FD69CBE000A2DEC /* Resnet50.mlmodel */; };
-		15A4CE991FD69D29000A2DEC /* dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15A4CE981FD69D29000A2DEC /* dog.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		155153391FD9231B002B12AB /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 		1551533B1FD9281B002B12AB /* CVPixelBufferExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVPixelBufferExtension.swift; sourceTree = "<group>"; };
 		15A4CE7D1FD685FE000A2DEC /* MLPhotosDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLPhotosDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15A4CE801FD685FE000A2DEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -30,10 +24,6 @@
 		15A4CE871FD685FE000A2DEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15A4CE8A1FD685FE000A2DEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15A4CE8C1FD685FE000A2DEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		15A4CE921FD6870C000A2DEC /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
-		15A4CE941FD690E1000A2DEC /* cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpg; sourceTree = "<group>"; };
-		15A4CE961FD69CBE000A2DEC /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
-		15A4CE981FD69D29000A2DEC /* dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,11 +61,6 @@
 				1551533B1FD9281B002B12AB /* CVPixelBufferExtension.swift */,
 				15A4CE841FD685FE000A2DEC /* Main.storyboard */,
 				15A4CE871FD685FE000A2DEC /* Assets.xcassets */,
-				155153391FD9231B002B12AB /* Inceptionv3.mlmodel */,
-				15A4CE921FD6870C000A2DEC /* GoogLeNetPlaces.mlmodel */,
-				15A4CE961FD69CBE000A2DEC /* Resnet50.mlmodel */,
-				15A4CE941FD690E1000A2DEC /* cat.jpg */,
-				15A4CE981FD69D29000A2DEC /* dog.jpg */,
 				15A4CE891FD685FE000A2DEC /* LaunchScreen.storyboard */,
 				15A4CE8C1FD685FE000A2DEC /* Info.plist */,
 			);
@@ -142,9 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15A4CE8B1FD685FE000A2DEC /* LaunchScreen.storyboard in Resources */,
-				15A4CE991FD69D29000A2DEC /* dog.jpg in Resources */,
 				15A4CE881FD685FE000A2DEC /* Assets.xcassets in Resources */,
-				15A4CE951FD690E1000A2DEC /* cat.jpg in Resources */,
 				15A4CE861FD685FE000A2DEC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -156,11 +139,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1551533A1FD9231B002B12AB /* Inceptionv3.mlmodel in Sources */,
 				15A4CE831FD685FE000A2DEC /* ViewController.swift in Sources */,
 				15A4CE811FD685FE000A2DEC /* AppDelegate.swift in Sources */,
-				15A4CE971FD69CBE000A2DEC /* Resnet50.mlmodel in Sources */,
-				15A4CE931FD6870C000A2DEC /* GoogLeNetPlaces.mlmodel in Sources */,
 				1551533C1FD9281B002B12AB /* CVPixelBufferExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
