@@ -1,4 +1,4 @@
-# MLhotosDemo
+ MLphotosDemo
 
 download models below to run this project
 
